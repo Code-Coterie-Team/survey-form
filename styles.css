@@ -19,3 +19,28 @@ body{
     color: #FFF;
     margin: 10px;
 }
+
+#container .customerName{
+    color: #FFF;
+    margin-left: 10px;
+}
+
+#container .inputCustomerName{
+    display: flex;
+}
+
+#container .inputCustomerName #firstname, #lastname{
+    width: 70%;
+    border-radius: 5px;
+}
+
+#container .inputCustomerName .firstname{
+    margin-left: 10px;
+}
+
+#container .inputCustomerName .firstname, .lastname p{
+    color: #FFF;
+    font-size: 5px;
+}
+
+
