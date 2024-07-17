@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+#container{
+    width: 50%;
+    height: 400px;
+    margin: 2rem auto;
+    border: 1px solid #FFF;
+}
+
+#container .title{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+#container hr{
+    color: #FFF;
+    margin: 10px;
+}
