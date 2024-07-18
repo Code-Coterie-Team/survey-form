@@ -4,7 +4,6 @@ body{
 
 #container{
     width: 50%;
-    height: 400px;
     margin: 2rem auto;
     border: 1px solid #FFF;
 }
@@ -65,6 +64,14 @@ body{
 
 #container .inputAddress option{
     color: black;
+}
+
+#container .contact{
+    display: flex;
+}
+
+#container .contact #phone, #email{
+    width: 70%;
 }
 
 
