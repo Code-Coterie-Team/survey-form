@@ -34,7 +34,7 @@ body{
     border-radius: 5px;
 }
 
-#container input, p{
+#container input, p, select{
     margin-left: 10px;
     color: #FFF;
 }
@@ -45,6 +45,26 @@ body{
 
 #container .inputAddress #streetAddress{
     width: 90%;
+}
+
+#container .inputAddress .cityAndState{
+    display: flex;
+}
+
+#container .inputAddress .cityAndState #city, #state, #zip{
+    width: 70%;
+}
+
+#container .inputAddress #zip{
+    width: 35%;
+}
+
+#container .inputAddress select{
+    width: 80%;
+}
+
+#container .inputAddress option{
+    color: black;
 }
 
 
