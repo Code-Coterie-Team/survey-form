@@ -15,7 +15,7 @@ body{
     justify-content: center;
 }
 
-#container hr{
+#container h3{
     color: #FFF;
     margin: 10px;
 }
@@ -34,13 +34,17 @@ body{
     border-radius: 5px;
 }
 
-#container .inputCustomerName .firstname{
+#container input, p{
     margin-left: 10px;
+    color: #FFF;
 }
 
-#container .inputCustomerName .firstname, .lastname p{
-    color: #FFF;
+#container p{
     font-size: 5px;
+}
+
+#container .inputAddress #streetAddress{
+    width: 90%;
 }
 
 
