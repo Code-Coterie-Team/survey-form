@@ -80,9 +80,13 @@ body{
     width: 70%;
 }
 
-#container .genderChoice label{
+#container .genderChoice label, .rating label{
     color: #FFF;
-    font-size: 8px;
+    font-size: 6px;
+}
+
+#container .rating p{
+    display: inline;
 }
 
 
